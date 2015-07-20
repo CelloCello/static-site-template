@@ -1,0 +1,27 @@
+{
+  "name": "eie",
+  "version": "0.0.0",
+  "authors": [
+    "Sero"
+  ],
+  "description": "lib",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+	"jquery": "~2.1.4"
+  },
+  "overrides": {
+    "jquery": {
+	  "main": "dist/*.min.js"
+    }
+  }  
+}
